@@ -11,15 +11,14 @@ Coding conventions are a set of guidelines for a specific programming language t
  Targets > Select the target > Build Phases > Click "+" > New Run Script Phases > In the Shell text field, enter your script code.
 
 <div style="background-color: rgb(50, 50, 50);">
-```
+``python
 export PATH="$PATH:/opt/homebrew/bin"
 if which swiftlint > /dev/null; then
   swiftlint
 else
   echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
-
-```
+``
 </div>
 
 
