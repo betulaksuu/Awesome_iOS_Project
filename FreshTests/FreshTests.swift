@@ -5,8 +5,8 @@
 //  Created by Betul Aksu on 29.04.2023.
 //
 
-@testable import Fresh
 import XCTest
+@testable import Fresh
 
 final class FreshTests: XCTestCase {
     override func setUp() {
