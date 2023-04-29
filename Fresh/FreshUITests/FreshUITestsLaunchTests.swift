@@ -12,13 +12,8 @@ final class FreshUITestsLaunchTests: XCTestCase {
         true
     }
 
-    override func setUp() {
-        super.setUp()
+    override func setUpWithError() throws {
         continueAfterFailure = false
-    }
-
-    override func tearDown() {
-        super.tearDown()
     }
 
     func testLaunch() throws {
