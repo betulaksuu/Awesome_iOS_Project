@@ -71,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71423F3E29FDC6F900BABE4A /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				7143A85429FD91AE0064413A /* Preview Content */,
+				7143A85229FD91AE0064413A /* Assets.xcassets */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
 		7143A84229FD91AD0064413A = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +103,9 @@
 		7143A84D29FD91AD0064413A /* Fresh */ = {
 			isa = PBXGroup;
 			children = (
+				71423F3E29FDC6F900BABE4A /* Recources */,
 				7143A84E29FD91AD0064413A /* FreshApp.swift */,
 				7143A85029FD91AD0064413A /* ContentView.swift */,
-				7143A85229FD91AE0064413A /* Assets.xcassets */,
-				7143A85429FD91AE0064413A /* Preview Content */,
 			);
 			path = Fresh;
 			sourceTree = "<group>";
