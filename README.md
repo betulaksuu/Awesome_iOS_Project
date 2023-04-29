@@ -1,6 +1,8 @@
 # Awesome_iOS_Project
 Fresh
 
+ABOUT PROJECT
+- TO-DO
 
 ## Coding convention
 
@@ -21,3 +23,7 @@ fi
 
 
 ### Swiftformat
+TO-DO
+
+### .gitignore
+TO-DO
