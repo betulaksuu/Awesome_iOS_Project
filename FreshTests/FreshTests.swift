@@ -9,15 +9,19 @@
 import XCTest
 
 final class FreshTests: XCTestCase {
-    override func setUpWithError() throws {
+    override func setUp() {
+        super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
-    override func tearDownWithError() throws {
+    override func tearDown() {
+        super.tearDown()
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {}
+    func testExample() throws {
+        print("Example test")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
