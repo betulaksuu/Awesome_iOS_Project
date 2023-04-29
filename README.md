@@ -1,5 +1,4 @@
-# Awesome_iOS_Project
-Fresh
+# FRESH - Awesome iOS Project
 
 ABOUT PROJECT
 - TO-DO
