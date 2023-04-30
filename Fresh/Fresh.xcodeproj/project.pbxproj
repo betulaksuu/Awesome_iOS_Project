@@ -14,6 +14,7 @@
 		7143A86029FD91AE0064413A /* FreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A85F29FD91AE0064413A /* FreshTests.swift */; };
 		7143A86A29FD91AE0064413A /* FreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A86929FD91AE0064413A /* FreshUITests.swift */; };
 		7143A86C29FD91AE0064413A /* FreshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A86B29FD91AE0064413A /* FreshUITestsLaunchTests.swift */; };
+		714B353A29FEE4010062ED6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B353929FEE4010062ED6E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7143A86529FD91AE0064413A /* FreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7143A86929FD91AE0064413A /* FreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshUITests.swift; sourceTree = "<group>"; };
 		7143A86B29FD91AE0064413A /* FreshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		714B353929FEE4010062ED6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +109,7 @@
 				714B353729FEE3500062ED6E /* Features */,
 				71423F3E29FDC6F900BABE4A /* Recources */,
 				7143A84E29FD91AD0064413A /* FreshApp.swift */,
-				7143A85029FD91AD0064413A /* ContentView.swift */,
+				714B353929FEE4010062ED6E /* AppDelegate.swift */,
 			);
 			path = Fresh;
 			sourceTree = "<group>";
@@ -140,6 +142,7 @@
 		714B353729FEE3500062ED6E /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				7143A85029FD91AD0064413A /* ContentView.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714B353A29FEE4010062ED6E /* AppDelegate.swift in Sources */,
 				7143A85129FD91AD0064413A /* ContentView.swift in Sources */,
 				7143A84F29FD91AD0064413A /* FreshApp.swift in Sources */,
 			);
