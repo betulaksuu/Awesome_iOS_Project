@@ -103,6 +103,8 @@
 		7143A84D29FD91AD0064413A /* Fresh */ = {
 			isa = PBXGroup;
 			children = (
+				714B353829FEE36A0062ED6E /* Common */,
+				714B353729FEE3500062ED6E /* Features */,
 				71423F3E29FDC6F900BABE4A /* Recources */,
 				7143A84E29FD91AD0064413A /* FreshApp.swift */,
 				7143A85029FD91AD0064413A /* ContentView.swift */,
@@ -133,6 +135,20 @@
 				7143A86B29FD91AE0064413A /* FreshUITestsLaunchTests.swift */,
 			);
 			path = FreshUITests;
+			sourceTree = "<group>";
+		};
+		714B353729FEE3500062ED6E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		714B353829FEE36A0062ED6E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
