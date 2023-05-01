@@ -139,9 +139,17 @@
 			path = FreshUITests;
 			sourceTree = "<group>";
 		};
+		714985102A001903000EE8DA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		714B353729FEE3500062ED6E /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				714985102A001903000EE8DA /* Splash */,
 				7143A85029FD91AD0064413A /* ContentView.swift */,
 			);
 			path = Features;
