@@ -11,7 +11,7 @@ import SwiftUI
 struct FreshApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
