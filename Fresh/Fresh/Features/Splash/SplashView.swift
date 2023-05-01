@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Splash: View {
+struct SplashView: View {
     var body: some View {
         VStack {
             SplashCircle(circleColor: .green, size: 100)
@@ -19,7 +19,7 @@ struct Splash: View {
 
 struct Splash_Previews: PreviewProvider {
     static var previews: some View {
-        Splash()
+        SplashView()
     }
 }
 
