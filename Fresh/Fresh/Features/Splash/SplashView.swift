@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct SplashView: View {
+    @State var isActive: Bool = false
+
     var body: some View {
-        VStack {
-            SplashCircle(circleColor: .green, size: 100)
-            SplashCircle(circleColor: .purple, size: 20)
-            SplashCircle(circleColor: .yellow, size: 40)
+        ZStack {
+            if isActive {
+                ContentView()
+            } else {
+                VStack {
+                    SplashCircle(circleColor: .green, size: 100)
+                    SplashCircle(circleColor: .purple, size: 20)
+                    SplashCircle(circleColor: .yellow, size: 40)
+                }
+            }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                withAnimation {
+                    isActive = true
+                }
+            }
         }
     }
 }
