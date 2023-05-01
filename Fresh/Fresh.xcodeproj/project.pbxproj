@@ -14,6 +14,7 @@
 		7143A86029FD91AE0064413A /* FreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A85F29FD91AE0064413A /* FreshTests.swift */; };
 		7143A86A29FD91AE0064413A /* FreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A86929FD91AE0064413A /* FreshUITests.swift */; };
 		7143A86C29FD91AE0064413A /* FreshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A86B29FD91AE0064413A /* FreshUITestsLaunchTests.swift */; };
+		714985122A00193C000EE8DA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714985112A00193C000EE8DA /* SplashView.swift */; };
 		714B353A29FEE4010062ED6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B353929FEE4010062ED6E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		7143A86529FD91AE0064413A /* FreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7143A86929FD91AE0064413A /* FreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshUITests.swift; sourceTree = "<group>"; };
 		7143A86B29FD91AE0064413A /* FreshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		714985112A00193C000EE8DA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		714B353929FEE4010062ED6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 		714985102A001903000EE8DA /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				714985112A00193C000EE8DA /* SplashView.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				714B353A29FEE4010062ED6E /* AppDelegate.swift in Sources */,
+				714985122A00193C000EE8DA /* SplashView.swift in Sources */,
 				7143A85129FD91AD0064413A /* ContentView.swift in Sources */,
 				7143A84F29FD91AD0064413A /* FreshApp.swift in Sources */,
 			);
