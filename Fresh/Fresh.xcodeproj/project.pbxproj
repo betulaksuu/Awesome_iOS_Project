@@ -93,13 +93,6 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
-		7125C6082A01979400F99659 /* tr.lproj */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = tr.lproj;
-			sourceTree = "<group>";
-		};
 		7125C60C2A01979900F99659 /* Localizable.strings */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				7125C60C2A01979900F99659 /* Localizable.strings */,
-				7125C6082A01979400F99659 /* tr.lproj */,
 				7125C6072A01978400F99659 /* Theme */,
 				7125C6062A01976500F99659 /* Models */,
 				714B353829FEE36A0062ED6E /* Common */,
