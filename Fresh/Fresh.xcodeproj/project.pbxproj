@@ -96,17 +96,17 @@
 		7125C6082A01979400F99659 /* tr.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				7125C6092A01979400F99659 /* Localizable.strings */,
 			);
 			path = tr.lproj;
 			sourceTree = "<group>";
 		};
-		7125C60C2A01979900F99659 /* en.lproj */ = {
+		7125C60C2A01979900F99659 /* Localizable.strings */ = {
 			isa = PBXGroup;
 			children = (
+				7125C6092A01979400F99659 /* Localizable.strings */,
 				7125C60D2A01979900F99659 /* Localizable.strings */,
 			);
-			path = en.lproj;
+			path = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		71423F3E29FDC6F900BABE4A /* Recources */ = {
@@ -141,7 +141,7 @@
 		7143A84D29FD91AD0064413A /* Fresh */ = {
 			isa = PBXGroup;
 			children = (
-				7125C60C2A01979900F99659 /* en.lproj */,
+				7125C60C2A01979900F99659 /* Localizable.strings */,
 				7125C6082A01979400F99659 /* tr.lproj */,
 				7125C6072A01978400F99659 /* Theme */,
 				7125C6062A01976500F99659 /* Models */,
