@@ -43,7 +43,7 @@ fi
 
 Remove existing .DS_Store files from the repository:
 
-https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository
+> https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository
 
 [Example .gitignore file ](https://github.com/github/gitignore/blob/main/Swift.gitignore)
 
