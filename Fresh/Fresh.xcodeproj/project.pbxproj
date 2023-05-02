@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7125C6112A01984500F99659 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7125C60E2A01979900F99659 /* Localizable.strings */; };
 		7143A84F29FD91AD0064413A /* FreshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A84E29FD91AD0064413A /* FreshApp.swift */; };
 		7143A85129FD91AD0064413A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143A85029FD91AD0064413A /* ContentView.swift */; };
 		7143A85329FD91AE0064413A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7143A85229FD91AE0064413A /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7125C60E2A01979900F99659 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		7143A84B29FD91AD0064413A /* Fresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7143A84E29FD91AD0064413A /* FreshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshApp.swift; sourceTree = "<group>"; };
 		7143A85029FD91AD0064413A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,14 +89,6 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
-		7125C60C2A01979900F99659 /* Localizable.strings */ = {
-			isa = PBXGroup;
-			children = (
-				7125C60E2A01979900F99659 /* Localizable.strings */,
-			);
-			path = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		71423F3E29FDC6F900BABE4A /* Recources */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +121,6 @@
 		7143A84D29FD91AD0064413A /* Fresh */ = {
 			isa = PBXGroup;
 			children = (
-				7125C60C2A01979900F99659 /* Localizable.strings */,
 				7125C6072A01978400F99659 /* Theme */,
 				7125C6062A01976500F99659 /* Models */,
 				714B353829FEE36A0062ED6E /* Common */,
@@ -300,7 +289,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7143A85629FD91AE0064413A /* Preview Assets.xcassets in Resources */,
-				7125C6112A01984500F99659 /* Localizable.strings in Resources */,
 				7143A85329FD91AE0064413A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
