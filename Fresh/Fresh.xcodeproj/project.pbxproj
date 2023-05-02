@@ -75,6 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7125C6062A01976500F99659 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7125C6072A01978400F99659 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		71423F3E29FDC6F900BABE4A /* Recources */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +121,8 @@
 		7143A84D29FD91AD0064413A /* Fresh */ = {
 			isa = PBXGroup;
 			children = (
+				7125C6072A01978400F99659 /* Theme */,
+				7125C6062A01976500F99659 /* Models */,
 				714B353829FEE36A0062ED6E /* Common */,
 				714B353729FEE3500062ED6E /* Features */,
 				71423F3E29FDC6F900BABE4A /* Recources */,
@@ -253,6 +269,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 7143A84229FD91AD0064413A;
 			productRefGroup = 7143A84C29FD91AD0064413A /* Products */;
