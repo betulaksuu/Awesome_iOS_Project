@@ -9,6 +9,11 @@ Coding conventions are a set of guidelines for a specific programming language t
 
 ### Swiftlint
 
+Just run the following code in the terminal:
+```
+brew install swiftlint
+```
+
  Targets > Select the target > Build Phases > Click "+" > New Run Script Phases > In the Shell text field, enter your script code.
 
 ```
