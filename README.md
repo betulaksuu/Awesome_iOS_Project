@@ -9,6 +9,8 @@ Coding conventions are a set of guidelines for a specific programming language t
 
 ### Swiftlint
 
+Documentation: https://github.com/realm/SwiftLint
+
 Just run the following code in the terminal:
 ```
 brew install swiftlint
